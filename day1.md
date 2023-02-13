@@ -100,12 +100,29 @@ $ C:\tools\terraform\terraform.exe
 
 $ terraform.exe
 
+<img width="434" alt="image" src="https://user-images.githubusercontent.com/44023974/218363991-2a59a140-6d13-4ffe-a327-a1414bb07f1f.png">
 
-## Step 4 - $ terraform plan
+<img width="367" alt="image" src="https://user-images.githubusercontent.com/44023974/218364015-e517d970-f1a1-4b86-968f-b6be81423341.png">
 
-## Step 5 - $ terraform apply
+```
 
-## Step 6 - $ terraform destroy
+resource "aws_instance" "web" {
+  ami           = "ami-0557a15b87f6559cf"
+  instance_type = "t3.micro"
+
+  tags = {
+    Name = "HelloWorld"
+  }
+}
+
+```
+## Step 4 - $ terraform validate
+
+## Step 5 - $ terraform plan
+
+## Step 6 - $ terraform apply
+
+## Step 7 - $ terraform destroy
 
 
 
