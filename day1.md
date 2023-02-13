@@ -58,6 +58,8 @@ Step 2 - Download Providers				DONE
 - aws
 - github
 
+$ terraform init
+
 Step 3 - Write Terraform Code
 
 Step 4 - $ terraform plan
