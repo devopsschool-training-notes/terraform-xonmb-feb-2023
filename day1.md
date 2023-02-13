@@ -44,6 +44,7 @@ https://registry.terraform.io/browse/providers
 
 # How it works? Architecture??
 
+<img width="914" alt="image" src="https://user-images.githubusercontent.com/44023974/218354871-006be02c-29de-46ae-bb34-f1a43bb3ee1c.png">
 
 # Terraform Workflow
 
