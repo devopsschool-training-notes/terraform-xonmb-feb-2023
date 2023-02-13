@@ -47,10 +47,10 @@ https://registry.terraform.io/browse/providers
 
 # Terraform Workflow
 
-**Step 1 - Install Terraform				DONE**
+## Step 1 - Install Terraform				DONE
 - https://developer.hashicorp.com/terraform/downloads
 
-**Step 2 - Download Providers				DONE**
+## Step 2 - Download Providers				DONE
 - aws
 - github
 
@@ -83,18 +83,7 @@ provider "github" {
 $ terraform init
 ```
 
-Step 3 - Write Terraform Code
-
-Step 4 - $ terraform plan
-
-Step 5 - $ terraform apply
-
-Step 6 - $ terraform destroy
-
-
-$ C:\tools\terraform\terraform.exe
-
-$ terraform.exe
+## Step 3 - Write Terraform Code
 
 - How to store Terraform Code?
 anyfilename.tf
@@ -105,6 +94,21 @@ dir1/
 		file1.tf		|
 		file2.tf		|		ONE TF CODE
 		file3.tf		|
+
+
+$ C:\tools\terraform\terraform.exe
+
+$ terraform.exe
+
+
+## Step 4 - $ terraform plan
+
+## Step 5 - $ terraform apply
+
+## Step 6 - $ terraform destroy
+
+
+
 
 
 
