@@ -124,7 +124,18 @@ resource "aws_instance" "web" {
 
 ## Step 7 - $ terraform destroy
 
+## Github Resources
 
+```
+resource "github_repository" "example" {
+  name        = "example-feb-2023"
+  description = "My awesome codebase"
+
+  visibility = "public"
+
+
+}
+```
 
 
 
