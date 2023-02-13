@@ -32,14 +32,14 @@ https://registry.terraform.io/browse/providers
 
 # # DevOps
 
-Code for Product
-Code for testing a product
-Code for Code Analysis
-Code for Build
-Code for Security
-Code for CI
-Code for CD
-Code for Infra
+- Code for Product
+- Code for testing a product
+- Code for Code Analysis
+- Code for Build
+- Code for Security
+- Code for CI
+- Code for CD
+- Code for Infra
 
 
 # How it works? Architecture??
