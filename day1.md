@@ -26,12 +26,11 @@ https://registry.terraform.io/browse/providers
 
 # Why Terraform?
 
-20 Tools - 20 Coding Standard & Spec == Hard to work - learn - test - debug - extend - share
+### 20 Tools - 20 Coding Standard & Spec == Hard to work - learn - test - debug - extend - share
 
-2874 Tools == 1 Coding Standard & Spec = == Easy to work - learn - test - debug - extend - share
+### 2874 Tools == 1 Coding Standard & Spec = == Easy to work - learn - test - debug - extend - share
 
-# # DevOps
-
+###  DevOps
 - Code for Product
 - Code for testing a product
 - Code for Code Analysis
@@ -48,14 +47,14 @@ https://registry.terraform.io/browse/providers
 
 # Terraform Workflow
 
-Step 1 - Install Terraform				DONE
+**Step 1 - Install Terraform				DONE**
 - https://developer.hashicorp.com/terraform/downloads
 
-Step 2 - Download Providers				DONE
+**Step 2 - Download Providers				DONE**
 - aws
 - github
 
-**Create a file called "providers.tf"** 
+**Create a file called "providers.tf" and copy following code in it.** 
 ```
 terraform {
   required_providers {
@@ -79,7 +78,7 @@ provider "github" {
   # Configuration options
 }
 ```
-**Run a following command**
+**Run a following command to download providers.**
 ```
 $ terraform init
 ```
