@@ -55,7 +55,7 @@ Step 2 - Download Providers				DONE
 - aws
 - github
 
-- providers.tf
+**Create a file called "providers.tf"** 
 ```
 terraform {
   required_providers {
@@ -79,6 +79,7 @@ provider "github" {
   # Configuration options
 }
 ```
+**Run a following command**
 ```
 $ terraform init
 ```
