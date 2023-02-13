@@ -55,6 +55,30 @@ Step 2 - Download Providers				DONE
 - aws
 - github
 
+- providers.tf
+```
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "4.54.0"
+    }
+	github = {
+      source = "integrations/github"
+      version = "5.17.0"
+    }
+  }
+}
+
+provider "aws" {
+  # Configuration options
+}
+
+
+provider "github" {
+  # Configuration options
+}
+```
 ```
 $ terraform init
 ```
