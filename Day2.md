@@ -175,3 +175,17 @@ module "Yops" {
   source      = "./YApp"
 }
 ```
+
+## Assignment - Module - 1
+Write a terraform module which has following resources
+- 1 ec2 instance
+- 1 Security group 
+- 1 keypair
+- install Apache2 (use ubuntu ami)
+
+## Assignment - Module - 1
+Write a terraform module which would create a s3 bucket and 
+upload some files to s3 bucket from the host server.
+
+## Assignment - Module - 3
+Use any module of your choise from https://registry.terraform.io/browse/modules and install it.
